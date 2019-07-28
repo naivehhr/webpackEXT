@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "css-loader": "^3.1.0",
+    "webpack": "^4.38.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.6"
+  },
+  "scripts": {
+    "build": "rm -rf dist/ && webpack --config webpack.config.js"
+  }
+}
